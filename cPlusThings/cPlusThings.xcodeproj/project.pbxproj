@@ -37,6 +37,7 @@
 		E128AA5B249200F400B31FCF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E128AA66249225D000B31FCF /* 通讯录管理系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "通讯录管理系统"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E128AA68249225D000B31FCF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E128AA6D24922A2A00B31FCF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				E128AA68249225D000B31FCF /* main.cpp */,
+				E128AA6D24922A2A00B31FCF /* README.md */,
 			);
 			path = "通讯录管理系统";
 			sourceTree = "<group>";

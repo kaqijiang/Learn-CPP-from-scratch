@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "string"
+//#include <string>
 
 #define MAX 3
 using namespace std;
@@ -81,7 +81,6 @@ void addPerson(addressBooks *addBooks) {
         if (age < 120 && age > 0) {
             addBooks->personList[addBooks->m_size].age = age;
             break;
-            
         }
         else
         {
@@ -169,7 +168,6 @@ void changePerson(addressBooks* addBooks) {
 }
 
 int main(int argc, const char * argv[]) {
-    
     
     int select = 0;
     addressBooks addBooks;
