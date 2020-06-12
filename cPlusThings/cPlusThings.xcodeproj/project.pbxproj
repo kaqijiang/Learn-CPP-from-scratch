@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E128AA5C249200F400B31FCF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E128AA5B249200F400B31FCF /* main.cpp */; };
 		E128AA69249225D000B31FCF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E128AA68249225D000B31FCF /* main.cpp */; };
+		E128AA7524932B2E00B31FCF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E128AA7424932B2E00B31FCF /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		E128AA7024932B2E00B31FCF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +48,9 @@
 		E128AA66249225D000B31FCF /* 通讯录管理系统 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "通讯录管理系统"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E128AA68249225D000B31FCF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E128AA6D24922A2A00B31FCF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E128AA7224932B2E00B31FCF /* 2.内存分区 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2.内存分区"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E128AA7424932B2E00B31FCF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E128AA7924932CE800B31FCF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +68,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E128AA6F24932B2E00B31FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +83,7 @@
 			children = (
 				E128AA5A249200F400B31FCF /* cPlusThings */,
 				E128AA67249225D000B31FCF /* 通讯录管理系统 */,
+				E128AA7324932B2E00B31FCF /* 2.内存分区 */,
 				E128AA59249200F400B31FCF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +93,7 @@
 			children = (
 				E128AA58249200F400B31FCF /* cPlusThings */,
 				E128AA66249225D000B31FCF /* 通讯录管理系统 */,
+				E128AA7224932B2E00B31FCF /* 2.内存分区 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,6 +113,15 @@
 				E128AA6D24922A2A00B31FCF /* README.md */,
 			);
 			path = "通讯录管理系统";
+			sourceTree = "<group>";
+		};
+		E128AA7324932B2E00B31FCF /* 2.内存分区 */ = {
+			isa = PBXGroup;
+			children = (
+				E128AA7424932B2E00B31FCF /* main.cpp */,
+				E128AA7924932CE800B31FCF /* README.md */,
+			);
+			path = "2.内存分区";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +161,23 @@
 			productReference = E128AA66249225D000B31FCF /* 通讯录管理系统 */;
 			productType = "com.apple.product-type.tool";
 		};
+		E128AA7124932B2E00B31FCF /* 2.内存分区 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E128AA7824932B2E00B31FCF /* Build configuration list for PBXNativeTarget "2.内存分区" */;
+			buildPhases = (
+				E128AA6E24932B2E00B31FCF /* Sources */,
+				E128AA6F24932B2E00B31FCF /* Frameworks */,
+				E128AA7024932B2E00B31FCF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2.内存分区";
+			productName = "2.内存分区";
+			productReference = E128AA7224932B2E00B31FCF /* 2.内存分区 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -143,6 +191,9 @@
 						CreatedOnToolsVersion = 11.2.1;
 					};
 					E128AA65249225D000B31FCF = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					E128AA7124932B2E00B31FCF = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
@@ -162,6 +213,7 @@
 			targets = (
 				E128AA57249200F400B31FCF /* cPlusThings */,
 				E128AA65249225D000B31FCF /* 通讯录管理系统 */,
+				E128AA7124932B2E00B31FCF /* 2.内存分区 */,
 			);
 		};
 /* End PBXProject section */
@@ -180,6 +232,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E128AA69249225D000B31FCF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E128AA6E24932B2E00B31FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E128AA7524932B2E00B31FCF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +395,26 @@
 			};
 			name = Release;
 		};
+		E128AA7624932B2E00B31FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UGLEXXUKNA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E128AA7724932B2E00B31FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UGLEXXUKNA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -361,6 +441,15 @@
 			buildConfigurations = (
 				E128AA6B249225D000B31FCF /* Debug */,
 				E128AA6C249225D000B31FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E128AA7824932B2E00B31FCF /* Build configuration list for PBXNativeTarget "2.内存分区" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E128AA7624932B2E00B31FCF /* Debug */,
+				E128AA7724932B2E00B31FCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
