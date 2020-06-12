@@ -1,4 +1,4 @@
-## Learn-C++-from-scratch
+## [Learn-C++-from-scratch](https://github.com/kaqijiang/Learn-CPP-from-scratch)
 
 ### 从零开始学习c++
 
@@ -44,7 +44,7 @@
 
 > - [内存分区](./提高/内存模型.md  "了解栈区程序来操作")
 > - [引用](./提高/引用.md "C++推荐使用引用")
-> - 函数提升
+> - [函数提升](./提高/函数提高.md "了解默认参数及重载")
 > - 类和对象
 > - 文件操作
 
